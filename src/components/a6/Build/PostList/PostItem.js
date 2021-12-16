@@ -20,7 +20,7 @@ const PostItem = ({
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img className="user-icon" src={post.profileImage}/>
+                    <img className="user-icon" src={post.profileImage} alt="..."/>
                 </div>
                 <div className="col-11">
                     <div className="d-flex">
@@ -32,7 +32,7 @@ const PostItem = ({
                     <div>{post.title}</div>
                     <div className="card mt-2">
                         <img src={post.cardImage} class="card-img-top" alt="..."/>
-                        <div className={`card-body ${post.cardTitle.length == 0 ? 'd-none' : 'd-block'}`}>
+                        <div className={`card-body ${post.cardTitle.length === 0 ? 'd-none' : 'd-block'}`}>
                             <div>{post.cardTitle}</div>
                             <div className="faded-text">{post.cardContent}</div>
                             <i className="fa fa-link faded-text">{post.cardLink}</i>

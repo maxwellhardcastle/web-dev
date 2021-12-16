@@ -12,7 +12,7 @@ const WhoToFollowListItem = ({
         <li className="list-group-item">
             <div className="d-flex">
                 <div className="my-auto me-2">
-                    <img className="user-icon" src={who.avatarIcon}/>
+                    <img className="user-icon" src={who.avatarIcon} alt="..."/>
                 </div>
                 <div className="my-auto me-auto">
                     <div className="user-name">

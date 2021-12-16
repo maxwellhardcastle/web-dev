@@ -23,7 +23,7 @@ const PostSummaryItem = ({
                     <div className="bold-text">{post.title}</div>
                 </div>
                 <div className="col-2">
-                    <img className="img-fluid mx-0 card-profile-icon" src={post.image}/>
+                    <img className="img-fluid mx-0 card-profile-icon" src={post.image} alt="..."/>
                 </div>
             </div>
         </li>
