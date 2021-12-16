@@ -1,0 +1,60 @@
+.btn-primary.override-bs {
+    border-radius: 20px;
+}
+
+.user-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.user-name {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.user-handle {
+    font-size: 14px;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.card-profile-icon {
+    border-radius: 10%;
+}
+
+.card-caption {
+    position: relative;
+}
+
+.card-image-text {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    margin-left: 5px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.search-text-field {
+    background-color: white;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.text-input-field {
+    width: 90%;
+    border-style: hidden;
+    outline: none;
+}
+
+.faded-text {
+    color: darkgray;
+}
